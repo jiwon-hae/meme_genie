@@ -2,9 +2,5 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
-}
-
-
-dependencies {
-    implementation("com.llama.llamastack:llama-stack-client-kotlin:0.2.2")
+    alias(libs.plugins.kotlin.compose) apply false
 }
