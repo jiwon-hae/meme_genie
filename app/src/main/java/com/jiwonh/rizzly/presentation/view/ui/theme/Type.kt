@@ -1,4 +1,4 @@
-package com.jiwonh.meme_genie.presentation.view.ui.theme
+package com.jiwonh.rizzly.presentation.view.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
