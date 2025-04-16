@@ -1,6 +1,5 @@
-package com.jiwonh.meme_genie.presentation.view.ui.theme
+package com.jiwonh.rizzly.presentation.view.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

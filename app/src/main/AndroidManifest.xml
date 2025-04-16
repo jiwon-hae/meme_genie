@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".RizzlyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -10,16 +11,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Meme_genie"
+        android:theme="@style/Theme.Rizzly"
         tools:targetApi="31">
         <activity
             android:name=".presentation.view.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Meme_genie" />
-        <activity
-            android:name=".presentation.view.MainActivity"
-            android:exported="false" />
+            android:theme="@style/Theme.Rizzly" />
     </application>
 
 </manifest>
